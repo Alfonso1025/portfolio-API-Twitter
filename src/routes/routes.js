@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { connect } from '../twitter';
+import { connect } from '../tweter';
 
 const router = Router();
 

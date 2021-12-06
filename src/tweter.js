@@ -1,6 +1,7 @@
 import TwitterApi from 'twitter-api-v2';
+require('dotenv').config()
 
-const twitterClient = new TwitterApi('AAAAAAAAAAAAAAAAAAAAAJHcVAEAAAAAD9QS2NUzNIOG%2B22Kaxd6WPZK2ac%3DuFLggfsPvmtQ4bKuQ1KEkF3jFqYFrd3yRVSzz9mZKO6VEEAaOi');
+const twitterClient = new TwitterApi(process.env.bearer_token);
 const roClient = twitterClient.readOnly;
 
 export async function connect(id){
