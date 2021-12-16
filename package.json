@@ -19,8 +19,11 @@
   },
   "devDependencies": {
     "@babel/cli": "^7.16.0",
-    "@babel/core": "^7.16.0",
-    "@babel/node": "^7.15.8",
-    "@babel/preset-env": "^7.16.0"
+    "@babel/core": "^7.16.5",
+    "@babel/node": "^7.16.5",
+    "@babel/preset-env": "^7.16.5"
+  },
+  "engines": {
+    "node": "12.19.0"
   }
 }
